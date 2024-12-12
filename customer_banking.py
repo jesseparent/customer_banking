@@ -28,12 +28,12 @@ All you need to do is enter the
 
     # Call the create_savings_account function and pass the variables from the user.
     updated_savings_balance, interest_earned = create_savings_account(savings_balance, savings_interest, savings_maturity)
-    print(savings_balance, savings_interest, savings_maturity)
+    
     # Print out the interest earned and updated savings account balance with interest earned for the given months.
     print()
     print(line)
-    print(f"The interest you will earn will be ${interest_earned: ,.2f}")
-    print(f"Your new balance for the savings account will be ${updated_savings_balance: ,.2f}")
+    print(f"The interest you will earn will be ${interest_earned:,.2f}")
+    print(f"Your new balance for the savings account will be ${updated_savings_balance:,.2f}")
     print(line)
     print()
     
@@ -57,8 +57,8 @@ All you need to do is enter the
     # Print out the interest earned and updated CD account balance with interest earned for the given months.
     print()
     print(line)
-    print(f"The interest you will earn will be ${interest_earned: ,.2f}")
-    print(f"Your new balance for the savings account will be ${updated_cd_balance: ,.2f}")
+    print(f"The interest you will earn will be ${interest_earned:,.2f}")
+    print(f"Your new balance for the savings account will be ${updated_cd_balance:,.2f}")
     print(line)
     print()
 
